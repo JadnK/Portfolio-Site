@@ -37,6 +37,7 @@ jobs:
       - name: Deploy via rsync
         run: |
           rsync -avz --delete \
+            --exclude 'data/' \
             --rsync-path="mkdir -p /var/www/html && rsync" \
             dist/ \
             root@jadenk.de:/var/www/html/
