@@ -40,7 +40,7 @@ export default function Projects() {
       github: 'https://github.com/jadnk/PiDash', 
     },
     {
-      title: 'FinGuard',
+      title: 'FinGua+rd',
       description:
         'Manage your finances effectively with FinGuard, a personal finance manager built with React and TypeScript.',
       image:
