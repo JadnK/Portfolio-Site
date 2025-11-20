@@ -40,21 +40,21 @@ export default function Projects() {
       github: 'https://github.com/jadnk/PiDash', 
     },
     {
-      title: '???',
+      title: 'FinGuard',
       description:
-        '?? ?? ??',
+        'Manage your finances effectively with FinGuard, a personal finance manager built with React and TypeScript.',
       image:
-        'https://placehold.co/600x400?text=Comming\\nSoon',
-      tags: ['???'],
+        'https://placehold.co/600x400?text=FinGuard',
+      tags: ['React', 'TypeScript', 'Finance', 'Android'],
       github: null,
     },
     {
-      title: '???',
+      title: 'o-Chat',
       description:
-        '?? ?? ??',
+        'Open chat site build with React and Firebase for real-time messaging and user authentication.',
       image:
-        'https://placehold.co/600x400?text=Comming\\nSoon',
-      tags: ['???'],
+        'https://placehold.co/600x400?text=o-Chat',
+      tags: ['React', 'Firebase', 'Chat', 'Real-time'],
       github: null,
     },
   ];
