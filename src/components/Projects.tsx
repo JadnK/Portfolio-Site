@@ -46,7 +46,7 @@ export default function Projects() {
       image:
         '../data/images/PROJECT_Berichte.png',
       tags: ['Berichtsheft', 'NextJS', 'KI'],
-      github: null,
+      github: 'https://github.com/JadnK/Berichtsheftmanager',
     },
     {
       title: 'o-Chat',
