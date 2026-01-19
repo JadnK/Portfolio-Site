@@ -40,12 +40,12 @@ export default function Projects() {
       github: 'https://github.com/jadnk/PiDash', 
     },
     {
-      title: 'FinGuard',
+      title: 'Berichtsheftmanager',
       description:
-        'Manage your finances effectively with FinGuard, a personal finance manager built with React and TypeScript.',
+        'Verbessere deine Berichtshefte mithilfe von KI und organisiere diese',
       image:
-        'https://placehold.co/600x400?text=FinGuard',
-      tags: ['React', 'TypeScript', 'Finance', 'Android'],
+        '../data/images/PROJECT_Berichte.png',
+      tags: ['Berichtsheft', 'NextJS', 'KI'],
       github: null,
     },
     {
