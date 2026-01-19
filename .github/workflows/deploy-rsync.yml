@@ -18,7 +18,7 @@ jobs:
           node-version: 18
 
       - name: Install dependencies
-        run: npm ci
+        run: npm install
 
       - name: Build
         run: npm run build
@@ -28,15 +28,15 @@ jobs:
         with:
           ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
 
-
-      - name: Add server to known_hosts
+      - name: Add server to known_hosts (port 2222)
         run: |
           mkdir -p ~/.ssh
-          ssh-keyscan -H jadenk.de >> ~/.ssh/known_hosts
+          ssh-keyscan -p 2222 -T 10 -H jadenk.de >> ~/.ssh/known_hosts
 
-      - name: Deploy via rsync
+      - name: Deploy via rsync (port 2222)
         run: |
           rsync -avz --delete \
+            -e "ssh -p 2222" \
             --exclude 'data/' \
             --rsync-path="mkdir -p /var/www/html && rsync" \
             dist/ \
