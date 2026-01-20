@@ -49,13 +49,13 @@ export default function Projects() {
       github: 'https://github.com/JadnK/Berichtsheftmanager',
     },
     {
-      title: 'o-Chat',
+      title: 'Mailux',
       description:
-        'Open chat site build with React and Firebase for real-time messaging and user authentication.',
+        'Self-host Mailserver inkl Weboberfläche und UserManagement',
       image:
-        'https://placehold.co/600x400?text=o-Chat',
-      tags: ['React', 'Firebase', 'Chat', 'Real-time'],
-      github: null,
+        '../data/images/PROJECT_Mailux.png',
+      tags: ['Mailserver', 'mails', 'self hosted'],
+      github: 'https://github.com/JadnK/Mailux',
     },
   ];
 
